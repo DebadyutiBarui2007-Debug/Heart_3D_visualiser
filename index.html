@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARDIO-ML 3D Intelligence Diagnostic Hub</title>
+    <meta name="description" content="Patient-specific 3D arterial digital twin, multi-task coronary stenosis risk inference, and SHAP explainability suite." />
+    <meta property="og:title" content="CARDIO-ML 3D Intelligence Diagnostic Hub" />
+    <meta property="og:description" content="Patient-specific 3D arterial digital twin, multi-task coronary stenosis risk inference, and SHAP explainability suite." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script>
+      // Filter out benign Vite HMR WebSocket connection failure notices caused by preview iframe isolation
+      window.addEventListener('error', function(event) {
+        if (event.message && (event.message.includes('WebSocket') || event.message.includes('createWebSocketModuleRunnerTransport'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && String(event.reason).includes('WebSocket')) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#0b1326] text-[#dae2fd] antialiased overflow-x-hidden selection:bg-[#4cd7f6] selection:text-[#003640]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

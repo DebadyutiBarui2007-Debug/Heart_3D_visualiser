@@ -1,0 +1,6 @@
+{
+  "name": "CARDIO-ML 3D Intelligence Diagnostic Hub",
+  "description": "Patient-specific 3D arterial digital twin, multi-task coronary stenosis risk inference, and SHAP explainability suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
